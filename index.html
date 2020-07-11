@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Assignment</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            
+        }
+        .wrapper{
+            background-color: #d7e7f4 ;
+        }
+        #main{
+            background-color: white;
+            width:954px;
+            height:100vh;
+            margin:auto;
+        }
+        .logo {
+            margin-left:22px;
+        }
+        .login{
+            color:#007BAF;
+            font-weight: 700;
+            text-align: right;
+            margin-right: 22px;
+            margin-top:20px;
+        }
+        input{
+            width:250px;
+        }
+        button{
+            background: url(search.png);
+            margin-right:22px;
+            padding:0 5px;
+            color:transparent;
+        }
+        .head{
+            display:flex;
+            justify-content: space-between;
+        }
+        .head2{
+            margin-right:22px;
+        }
+        hr{
+            
+            border:black 2px solid;
+            margin-top:17%;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="layout1.html">Layout 1</a>
+            <a class="nav-link" href="layout2.html">Layout 2</a>
+            <a class="nav-link" href="layout3.html">Layout 3</a>
+        </nav><br>
+        <div id="main">
+            <header class="head">
+                <div>
+                    <img class="logo" src="logo.png" alt="logo">
+                </div>
+                <div class="head2">
+                    <h5 class="login">Login To My Account</h5>
+                    <input type="text" placeholder="Search entire store here.">
+                    <button type="submit">Search..</button>
+                </div>
+                
+            </header>
+            <hr>
+        </div>
+    </div>
+    
+</body>
+</html>

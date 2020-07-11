@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 3</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        nav {
+            background-color: black;
+            color:white;
+            font-size: 18px;
+        }
+        span{
+            color:blue;
+        }
+        .image{
+            width:700px;
+            margin-bottom: 20px;
+        }
+        .form-control{
+            width:300px;
+            height:30px;
+        }
+        button{
+            background:url(icon.png);
+            color:transparent;
+            border:grey .3px solid;
+        }
+        .right { 
+            flex: 30%;
+            margin-right: 20px;;
+        }
+        .left    { flex: 70%; }
+        .cont{
+            display:flex;
+            justify-content: space-around;
+        }
+        .fst{
+            background-color: rgb(209, 248, 240);
+            padding:20px;
+            margin-bottom:10px;
+        }
+        .scnd{
+            background-color: rgb(209, 248, 240);
+            padding:20px;
+            margin-bottom:10px;
+        }
+        .trd{
+            background-color: rgb(209, 248, 240);
+            padding:20px;
+            margin-bottom:10px;
+        }
+        .link{
+            color:rgb(0, 89, 255);
+            font-size: smaller;
+            margin-right:30px;
+        }
+        .fnt{
+            font-size: smaller;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        
+        <nav class="nav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="layout1.html">Layout 1</a>
+            <a class="nav-link" href="layout2.html">Layout 2</a>
+            <a class="nav-link" href="layout3.html">Layout 3</a>
+        </nav><br>
+        
+        <div class="cont container">
+            <div class="left">
+                <h1>Blog Post Title</h1>
+                <p>By <span>Test</span></p>
+                <p class="fnt">@ Posted on August 24.2013 at 9:00 pm</p>
+                <img class="image" src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png" class="card-img-top" alt="...">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quae at iste quaerat voluptates architecto distinctio incidunt nesciunt similique ea! Soluta incidunt sequi eum. Saepe harum officiis tempore porro iusto.</p>
+                <div class="fnt">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem atque exercitationem iste nostrum iure quisquam, quam architecto pariatur quasi nemo dicta adipisci reprehenderit ducimus, aperiam eos aut voluptatibus rerum. Quasi!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore perspiciatis natus enim ducimus, quo sit iusto impedit! Recusandae quae nihil, laborum nisi accusamus, quasi aperiam, optio perferendis cumque dolor excepturi.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quaerat totam numquam sequi ipsum omnis rerum voluptates quos atque maiores sint minima magnam similique harum. Quos perspiciatis totam fugit tenetur!</p>
+                </div>
+            </div>
+            
+            <div class="right">
+                <div class="fst">
+                    <p>Blog Search</p>
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" aria-label="Search">
+                        <button>cl</button>
+                    </form>
+                </div>
+                <div class="scnd">
+                    <p>Blog Categories</p>
+                    <a  class="link" href="#">Category Name</a>
+                    <a  class="link" href="#">Category Name</a><br>
+                    <a  class="link" href="#">Category Name</a>
+                    <a  class="link" href="#">Category Name</a><br>
+                    <a  class="link" href="#">Category Name</a>
+                    <a  class="link" href="#">Category Name</a><br>
+                    <a  class="link" href="#">Category Name</a>
+                    <a  class="link" href="#">Category Name</a>
+
+                </div>
+                <div class="trd">
+                    <p>Side Widget Well</p>
+                    <p class="fnt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo dicta impedit consequuntur dolor fugiat rem inventore.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
